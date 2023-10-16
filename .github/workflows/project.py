@@ -1,2 +1,7 @@
-name = input('What is your name?\n')
-print ('Hi, %s.' % name)
+
+def greet(name):
+    print ('Hello', name)
+
+greet('Jack')
+greet('Jill')
+greet('Bob')
